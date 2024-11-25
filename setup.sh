@@ -1,4 +1,5 @@
 #!/bin/bash
+exec > >(tee -a log.txt) 2>&1
 
 # Call function to send telemetry event
 log_event() {

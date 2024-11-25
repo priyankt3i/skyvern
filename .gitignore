@@ -180,3 +180,7 @@ tags
 tags.lock
 tags.temp
 tags.temp.tmp
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
